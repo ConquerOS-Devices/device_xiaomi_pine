@@ -54,7 +54,7 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 
-# Camera - from olive
+# Camera
 vendor/lib/libactuator_pine_fp5510_imx486_holitech.so
 vendor/lib/libactuator_pine_fp5510_imx486_ofilm.so
 vendor/lib/libactuator_pine_fp5510_imx486_qtech.so
