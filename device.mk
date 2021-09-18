@@ -31,3 +31,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/pine/pine-vendor.mk)
+
+# MOD: MiuiCamera
+ifneq ($(wildcard vendor/miuicamera),)
+$(call inherit-product, vendor/miuicamera/config.mk)
+PRODUCT_COPY_FILES += vendor/miuicamera/common/proprietary/etc/device_features/pine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/pine.xml
+endif
