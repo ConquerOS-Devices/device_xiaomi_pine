@@ -1,0 +1,54 @@
+[
+    {
+        "repository":    "device_xiaomi_sdm439-common",
+        "target_path":   "device/xiaomi/sdm439-common"
+    },
+    {
+        "repository":    "vendor_xiaomi_pine",
+        "target_path":   "vendor/xiaomi/pine"
+    },
+    {
+        "repository":    "vendor_xiaomi_sdm439-common",
+        "target_path":   "vendor/xiaomi/sdm439-common"
+    },
+    {
+        "repository":    "kernel_xiaomi_sdm439",
+        "target_path":   "kernel/xiaomi/sdm439"
+    },
+    {
+        "remote":        "github",
+        "repository":    "Chuck439/android_hardware_qcom_display",
+        "target_path":   "hardware/qcom-caf/msm8996-q/display",
+        "branch":        "lineage-18.1-caf-msm8996"
+    },
+    {
+        "remote":        "github",
+        "repository":    "LineageOS/android_hardware_qcom_media",
+        "target_path":   "hardware/qcom-caf/msm8996-q/media",
+        "branch":        "lineage-18.1-caf-msm8996"
+    },
+    {
+        "remote":        "github",
+        "repository":    "LineageOS/android_hardware_qcom_audio",
+        "target_path":   "hardware/qcom-caf/msm8996-q/audio",
+        "branch":        "lineage-18.1-caf-msm8996"
+    },
+    {
+        "remote":        "github",
+        "repository":    "Chuck439/aosp-clang",
+        "target_path":   "prebuilts/clang/host/linux-x86/clang-aosp",
+        "branch":        "master"
+    },
+    {
+        "remote":        "github",
+        "repository":    "LineageOS/android_external_ant-wireless_antradio-library",
+        "target_path":   "external/ant-wireless/antradio-library",
+        "branch":        "lineage-18.1"
+    },
+    {
+        "remote":        "github",
+        "repository":    "Chuck439/vendor_MiuiCamera",
+        "target_path":   "vendor/miuicamera",
+        "branch":        "eleven"
+    }
+]
